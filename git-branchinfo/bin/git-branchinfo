@@ -1,0 +1,12 @@
+#!/usr/bin/perl
+
+use lib '../lib';
+use Git::BranchInfo;
+Git::BranchInfo->run;
+
+#
+# git branchinfo
+# git branchinfo branch
+# git branchinfo branch info
+# git branchinfo -d branch
+# git branchinfo --prune
